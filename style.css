@@ -1,0 +1,400 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rectangles {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rectangles200 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.rectangle {
+    height: 120px;
+    background-color: #808080;
+    margin: 0 10px;
+}
+
+.rectangle1-image {
+    width: 120px; /* Ширина для картинки */
+    height: 120px; /* Висота для картинки */
+    object-fit: cover; /* Масштабування збереженням пропорцій, обрізка якщо необхідно */
+    margin: 0 10px;
+}
+
+.rectangle2 {
+    width: 275px;
+}
+
+.rectangle3 {
+    width: 525px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.rectangle4 {
+    width: 200px; /* Змінена ширина четвертого прямокутника */
+    height: 325px; /* Змінена висота четвертого прямокутника */
+    margin-right: 10px; /* Відступ між 4 і 5 прямокутниками */
+    display: flex;
+    justify-content: center; /* Вирівнювання списку по горизонталі в центрі */
+    align-items: flex-start; /* Вирівнювання списку по вертикалі в центрі */
+}
+
+.rectangle5 {
+    background-color: rgb(212, 212, 212);
+    width: 740px; /* Змінена ширина п'ятого прямокутника */
+    height: 220px; /* Змінена висота п'ятого прямокутника */
+    margin-left: 10px; /* Відступ від лівого краю */
+}
+
+
+.info-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.info-list li {
+    margin: 3px 0;
+    font-size: 14px;
+    text-align: right;
+}
+
+.info-list li a {
+    text-decoration: underline;
+    color: white;
+}
+
+.line {
+    width: 960px;
+    border: none;
+    height: 1px;
+    background-color: #000;
+    margin-top: 20px; /* Відступ зверху */
+    margin-bottom: 20px;
+}
+
+.big-list {
+    color: white;
+    list-style-type: none; /* Видалення маркерів списку */
+    padding: 0; /* Зняття відступів у списку */
+    margin: 10px 0 0 15px; /* Відступ від верхнього краю */
+}
+
+.big-list li {
+    margin: 8px 0; /* Відступи для кожного елементу списку */
+    font-size: 14px; /* Розмір шрифту */
+}
+
+.big-list li:first-child {
+    font-size: 18px; /* Збільшений розмір шрифту для першого елементу списку */
+    font-weight: bold; /* Зробити текст жирним для першого елементу */
+}
+
+.rectangle5 p {
+    font-weight: bold; /* Зробити текст параграфу жирним */
+    margin: 20px 0px 0 15px;
+}
+
+
+.potato-list {
+    color: rgb(107, 102, 102);
+    padding: 0;
+    display: block; /* Розміщення списку на новому рядку */
+    margin-top: 60px; /* Відстань між списком та попереднім елементом */
+    margin: -15px 0 0 33px; /* Відступ від верхнього краю */
+}
+
+.potato-list li {
+    font-size: 14px;
+    margin-bottom: 6px; /* Відстань між елементами списку */
+    
+}
+
+.potato-list li:last-child {
+    list-style-type: none; /* Видалення маркера у останнього елементу */
+    margin: 0px 0 0 -15px;
+}
+
+.first-word {
+    color: black; /* Зміна кольору першого слова */
+}
+
+/* Додати CSS для п'яти квадратів */
+.squares-row {
+    display: flex;
+    justify-content: center; /* Вирівнювання квадратів по центру */
+    margin-top: -90px; /* Відстань від п'ятого прямокутника */
+    margin-right: -220px;
+}
+
+/* CSS для п'яти квадратів */
+.squares-row {
+    display: flex;
+    justify-content: center; /* Вирівнювання квадратів по центру */
+    margin-top: 10px; /* Відстань між рядками квадратів */
+    
+}
+
+.square {
+    width: 132px; /* Ширина квадрату */
+    height: 130px; /* Висота квадрату */
+    background-color: rgba(212, 212, 212); /* Колір квадрату */
+    margin: 0 10px; /* Відстань між квадратами */
+}
+
+/* Кожен квадрат має своє ім'я */
+.square1 {
+    background-color: rgba(212, 212, 212); /* Колір квадрату */
+    margin-top: -100px;
+}
+
+.square2 {
+    background-color: rgba(212, 212, 212); /* Колір квадрату */
+    margin-top: -100px;
+}
+
+.square3 {
+    background-color: rgba(212, 212, 212); /* Колір квадрату */
+    margin-top: -100px;
+}
+
+.square4 {
+    background-color: rgba(212, 212, 212); /* Колір квадрату */
+    margin-top: -100px;
+}
+
+.square5 {
+    background-color: rgba(212, 212, 212); /* Колір квадрату */
+    margin-top: -100px;
+}
+
+.squares-rower {
+    display: flex;
+    justify-content: center; /* Вирівнювання квадратів по центру */
+    margin-top: -90px; /* Відстань від п'ятого прямокутника */
+    margin-right: 235px;
+}
+
+/* CSS для п'яти квадратів */
+.squares-rower {
+    display: flex;
+    justify-content: center; /* Вирівнювання квадратів по центру */
+    margin-top: 10px; /* Відстань між рядками квадратів */
+    
+}
+.square6 {
+    background-color: rgba(212, 212, 212); /* Колір квадрату */
+    
+}
+
+.square7 {
+    background-color: rgba(212, 212, 212); /* Колір квадрату */
+    
+}
+.square-image {
+    width: 100%; /* Зробити ширину зображення 100% від батьківського контейнера */
+    height: 100%; /* Зробити висоту зображення 100% від батьківського контейнера */
+    object-fit: cover; /* Обрізати зображення так, щоб воно повністю заповнило контейнер */
+}
+
+/* CSS для нового контейнера */
+.new-container {
+    margin-top: 10px; /* Відступ від верху */
+    background-color:  #f0f0f0; /* Колір контейнера */
+    display: flex; /* Відображення прямокутників в ряд */
+    justify-content: flex-start; /* Вирівнювання прямокутників зліва */
+    padding: 5px; /* Внутрішній відступ для контейнера */
+    padding-left: 10;
+}
+
+/* Стилі для прямокутників у новому контейнері */
+.new-rectangle1 {   
+    width: 200px;
+    height: 130px;
+    background-color: #808080;
+    align-self: flex-end; /* Перший прямокутник крівняється до нижньої лінії */
+    margin-right: 10px; /* Відступ між прямокутниками */
+}
+
+.new-rectangle2 {
+    width: 362px;
+    height: 190px;
+    background-color: rgba(212, 212, 212);
+    margin-right: 6px; /* Відступ між прямокутниками */
+    padding: 15px; /* Внутрішній відступ */
+    box-sizing: border-box; /* Розрахунок розміру елемента, включаючи padding і border */
+    overflow: hidden; /* Ховати зайвий текст, який може виходити за межі */
+}
+
+.new-rectangle2 p {
+    color: rgb(107, 102, 102);
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0; /* Відступи від країв прямокутника */
+    overflow: hidden; /* Ховати зайвий текст, який може виходити за межі */
+    text-overflow: ellipsis; /* Замінювати зайвий текст на місце троєкрапку */
+}
+
+.new-rectangle3 {
+    width: 362px;
+    height: 190px;
+    background-color: rgba(212, 212, 212);
+    padding: 15px; /* Внутрішній відступ */
+    box-sizing: border-box; /* Розрахунок розміру елемента, включаючи padding і border */
+    overflow: hidden; /* Ховати зайвий текст, який може виходити за межі */
+}
+
+.new-rectangle3 p {
+    color: rgb(107, 102, 102);
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0; /* Відступи від країв прямокутника */
+    overflow: hidden; /* Ховати зайвий текст, який може виходити за межі */
+    text-overflow: ellipsis; /* Замінювати зайвий текст на місце троєкрапку */
+}
+
+.new-line {
+    width: 960px;
+    border: none;
+    height: 1px;
+    background-color: #000; /* Чорна лінія */
+    margin-top: 15px; /* Відступ зверху */
+    margin-bottom: 15px;
+}
+
+/* CSS для контейнера з чотирма прямокутниками */
+.four-rectangles-container {
+    display: flex;
+    margin-top: 10px; /* Відступ від верху */
+    margin-left: 5px;
+    background-color: #f0f0f0; /* Колір контейнера */
+    padding: 10px; /* Внутрішній відступ */
+}
+
+.rectangle-horizontal {
+    width: 300px;
+    height: 200px;
+    background-color: #808080;
+    margin-right: 30px; /* Відступ між прямокутниками */
+    display: grid; /* Використання CSS Grid для створення двох стовпців */
+    grid-template-columns: 1fr 1fr; /* Два стовпці однакової ширини */
+    padding-left: 25px;
+    box-sizing: border-box; /* Розрахунок розміру елемента, включаючи padding і border */
+}
+
+.two-column-list {
+    list-style-type: none; /* Видалення маркерів списку */
+    padding: 0; /* Видалення відступів списку */
+    margin: 0; /* Видалення зовнішніх відступів списку */
+    padding-top: 12px; /* Внутрішній верхній відступ */
+    margin-right: 30px; /* Зміщення списку праворуч */
+    color: white;
+}
+
+.two-column-list li {
+    margin: 5px 0; /* Відступи між елементами списку */
+}
+
+
+.vertical-rectangles {
+    display: flex;
+    flex-direction: column; /* Розміщення прямикутників вертикально */
+    justify-content: space-between; /* Рівномірний розподіл простору між прямокутниками */
+}
+
+.rectangle-vertical {
+    width: 300px;
+    height: 85px;
+    background-color: #808080;
+    margin-bottom: 30px; /* Відступ між вертикальними прямокутниками */
+}
+
+.rectangle-vertical:last-child {
+    margin-bottom: 0; /* Видалення відступу у останнього вертикального прямокутника */
+}
+
+.rectangle-horizontal200 {
+    width: 300px;
+    height: 200px;
+    background-color: #808080;
+    margin-right: 30px; /* Відступ між прямокутниками */
+    padding-left: 25px;
+    box-sizing: border-box; /* Розрахунок розміру елемента, включаючи padding і border */
+}
+
+.list-seven {
+    list-style-type: square; /* Встановлення квадратних маркерів */
+    color: white;
+    font-size: 14.5px;
+    padding-top: 2px; /* Внутрішній верхній відступ */
+    padding-left: 20px; /* Відступ від лівого краю */
+}
+
+.list-seven li {
+    margin-bottom: 8px; /* Відстань між елементами списку */
+}
+
+.rectangle-vertical-image {
+    background-image: url('./image/Pingo.jpeg'); /* Шлях до вашого зображення */
+    background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
+    background-position: center; /* Центрування зображення */
+}
+
+.rectangle-image500 {
+    background-image: url('./image/army.jpeg'); /* Шлях до вашого зображення */
+    background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
+    background-position: center; /* Центрування зображення */
+}
+
+.rectangle-image120 {
+    background-image: url('./image/esh.jpg'); /* Шлях до вашого зображення */
+    background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
+    background-position: center; /* Центрування зображення */
+}
+
+.rectangle-image777 {
+    background-image: url('./image/sklo.jpg'); /* Шлях до вашого зображення */
+    background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
+    background-position: center; /* Центрування зображення */
+}
+
+.rectangle-image600 {
+    background-image: url('./image/vir.jpeg'); /* Шлях до вашого зображення */
+    background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
+    background-position: center; /* Центрування зображення */
+}
+
+.rectangle-image888 {
+    background-image: url('./image/3dd.jpg'); /* Шлях до вашого зображення */
+    background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
+    background-position: center; /* Центрування зображення */
+}
+
+.rectangle-image23 {
+    background-image: url('./image/boss.avif'); /* Шлях до вашого зображення */
+    background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
+    background-position: center; /* Центрування зображення */
+}
+
+.rectangle-image45 {
+    background-image: url('./image/short.webp'); /* Шлях до вашого зображення */
+    background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
+    background-position: center; /* Центрування зображення */
+}
