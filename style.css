@@ -134,6 +134,7 @@ body {
 
 .first-word {
     color: black; /* Зміна кольору першого слова */
+    font-weight: bold;
 }
 
 /* Додати CSS для п'яти квадратів */
@@ -295,21 +296,21 @@ body {
     margin-right: 30px; /* Відступ між прямокутниками */
     display: grid; /* Використання CSS Grid для створення двох стовпців */
     grid-template-columns: 1fr 1fr; /* Два стовпці однакової ширини */
-    padding-left: 25px;
+    padding: 13px;
+    padding-left: 20px;
     box-sizing: border-box; /* Розрахунок розміру елемента, включаючи padding і border */
 }
 
 .two-column-list {
     list-style-type: none; /* Видалення маркерів списку */
-    padding: 0; /* Видалення відступів списку */
-    margin: 0; /* Видалення зовнішніх відступів списку */
-    padding-top: 12px; /* Внутрішній верхній відступ */
-    margin-right: 30px; /* Зміщення списку праворуч */
+    padding: 0; 
+    margin: 0; 
+    font-size: 14px;
     color: white;
 }
 
 .two-column-list li {
-    margin: 5px 0; /* Відступи між елементами списку */
+    margin: 8px 0; /* Відступи між елементами списку */
 }
 
 
@@ -342,8 +343,8 @@ body {
 .list-seven {
     list-style-type: square; /* Встановлення квадратних маркерів */
     color: white;
-    font-size: 14.5px;
-    padding-top: 2px; /* Внутрішній верхній відступ */
+    font-size: 14px;
+    padding-top: 5px; /* Внутрішній верхній відступ */
     padding-left: 20px; /* Відступ від лівого краю */
 }
 
@@ -352,49 +353,49 @@ body {
 }
 
 .rectangle-vertical-image {
-    background-image: url('./image/Pingo.jpeg'); /* Шлях до вашого зображення */
+    background-image: url('./images2/grey-blok.png'); /* Шлях до вашого зображення */
     background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
     background-position: center; /* Центрування зображення */
 }
 
 .rectangle-image500 {
-    background-image: url('./image/army.jpeg'); /* Шлях до вашого зображення */
+    background-image: url('./images2/grey-blok.png'); /* Шлях до вашого зображення */
     background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
     background-position: center; /* Центрування зображення */
 }
 
 .rectangle-image120 {
-    background-image: url('./image/esh.jpg'); /* Шлях до вашого зображення */
+    background-image: url('./images2/grey-blok.png'); /* Шлях до вашого зображення */
     background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
     background-position: center; /* Центрування зображення */
 }
 
 .rectangle-image777 {
-    background-image: url('./image/sklo.jpg'); /* Шлях до вашого зображення */
+    background-image: url('./images2/grek.png'); /* Шлях до вашого зображення */
     background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
     background-position: center; /* Центрування зображення */
 }
 
 .rectangle-image600 {
-    background-image: url('./image/vir.jpeg'); /* Шлях до вашого зображення */
+    background-image: url('./images2/grek.png'); /* Шлях до вашого зображення */
     background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
     background-position: center; /* Центрування зображення */
 }
 
 .rectangle-image888 {
-    background-image: url('./image/3dd.jpg'); /* Шлях до вашого зображення */
+    background-image: url('./images2/grek.png'); /* Шлях до вашого зображення */
     background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
     background-position: center; /* Центрування зображення */
 }
 
 .rectangle-image23 {
-    background-image: url('./image/boss.avif'); /* Шлях до вашого зображення */
+    background-image: url('./images2/grek.png'); /* Шлях до вашого зображення */
     background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
     background-position: center; /* Центрування зображення */
 }
 
 .rectangle-image45 {
-    background-image: url('./image/short.webp'); /* Шлях до вашого зображення */
+    background-image: url('./images2/grek.png'); /* Шлях до вашого зображення */
     background-size: cover; /* Забезпечення того, що зображення покриватиме всю площу прямокутника */
     background-position: center; /* Центрування зображення */
 }
